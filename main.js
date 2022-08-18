@@ -1,3 +1,4 @@
+
 // Store variable in an arr
 let arrayOfPeople;
 
@@ -14,8 +15,8 @@ const getPeople = () => {
 }
 
 // This function logs the results in your browser's console
-const consolePeople = () => {
-  console.log(arrayOfPeople);
+// const consolePeople = () => {
+  // console.log(arrayOfPeople);
 //   console.log(dataArray.results[0]);
 //   console.log(dataArray.results[0].gender);
 //   console.log(dataArray.results[0].name);
@@ -23,7 +24,7 @@ const consolePeople = () => {
 //   console.log(dataArray.results[0].phone);
 //   console.log(dataArray.results[0].email);
 //   console.log(dataArray.results[0].picture.thumbnail);
-};
+// };
 
 const getPerson = (array) => {
     array.map((people) => {
